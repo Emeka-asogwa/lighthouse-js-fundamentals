@@ -6,14 +6,24 @@ By print, we are referring to console.log. ------ */
 
 
 
-let numbers=100;
-for (numbers>=100; numbers<=200; numbers++){
+//let numbers=100;
+for (let numbers = 100; numbers<=200; numbers++){
   //console.log(numbers);
-  if(numbers % 3===0){
+  if(numbers % 3 == 0){
     console.log("Loopy")
-  }else if(numbers % 4===0){
+  }else if(numbers % 4 == 0){
     console.log("Lighthouse");
-  }else if(numbers % 3===0 && numbers % 4===0){
+  }else if((numbers % 3 == 0 ) && (numbers % 4==0)){
     console.log("LoopyLighthouse");
+  }else{
+    console.log(numbers);
   }
 }
+
+
+
+
+
+
+
+
